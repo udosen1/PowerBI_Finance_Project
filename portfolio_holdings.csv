@@ -1,0 +1,10 @@
+Ticker,PurchaseDate,PurchasePrice,Quantity,Sector
+MSFT,2017-01-03,62.58,80,Technology
+AAPL,2017-01-03,116.15,45,Technology
+TSLA,2017-01-03,216.99,25,Consumer Discretionary
+JPM,2017-02-01,87.31,60,Financials
+XOM,2017-02-01,82.83,65,Energy
+JNJ,2017-03-01,123.33,40,Healthcare
+PG,2017-03-01,90.94,55,Consumer Staples
+AADR,2017-04-03,46.39,110,ETF
+GLD,2017-04-03,120.00,45,Commodity
