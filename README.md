@@ -118,7 +118,7 @@ You are now ready to begin the analysis:
 
 The full, interactive Power BI report is publicly available for you to explore. No software is required.
 
-**[➡️ Click Here to View the Live Interactive Dashboard](https://your-public-power-bi-url-here)**
+**[➡️ Click Here to View the Live Interactive Dashboard](https://your-public-power-bi-url-here)** 
 
 ---
 
@@ -129,7 +129,7 @@ Here is a preview of the three main pages of the report.
 ### Page 1: Portfolio Overview (The Executive Summary)
 *This page provides a high-level, at-a-glance summary of the portfolio's health, tracking key performance indicators and comparing performance against the S&P 500 benchmark.*
 
-![Portfolio Overview Screenshot](https://github.com/udosen1/PowerBI_Finance_Project/blob/main/Portfolio_overview.png)
+![Portfolio Overview Screenshot](https://github.com/udosen1/PowerBI_Finance_Project/blob/main/Portfolio_Overview.png)
 
 ### Page 2: Performance Deep Dive (The "Why")
 *This page allows for a deeper analysis of what drives the portfolio's returns, breaking down profit and loss by individual assets and by sector.*
@@ -139,7 +139,7 @@ Here is a preview of the three main pages of the report.
 ### Page 3: Risk Analysis (The "How Risky")
 *This page visualizes the crucial tradeoff between risk (volatility) and return, allowing for a sophisticated analysis of the portfolio's risk profile.*
 
-![Risk Analysis Screenshot](https://github.com/udosen1/PowerBI_Finance_Project/blob/main/Risk-Analysis.png)
+![Risk Analysis Screenshot](https://github.com/udosen1/PowerBI_Finance_Project/blob/main/Risk_Analysis.png)
 
 ---
 
