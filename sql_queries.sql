@@ -8,6 +8,7 @@ CREATE TABLE MarketData (
 	[Low] DECIMAL(18, 4),
 	[Close] DECIMAL(18, 4),
 	[Volume] BIGINT, 
+    [OpenInt] INT,
 	[Ticker] VARCHAR(10)
 ); 
 
@@ -22,7 +23,7 @@ CREATE TABLE PortfolioHoldings (
 
 -- Load data into the MarketData table
 BULK INSERT MarketData
-FROM 'C:\Users\ASUS\Documents\PowerBI_Finance_Project\combined_market_data.csv' -- <-- EDIT THIS LINE
+FROM 'C:\Users\ASUS\Documents\PowerBI_Finance_Project\combined_market_data.csv'
 WITH (
     FIELDTERMINATOR = ',',  -- CSV files are comma-separated
     ROWTERMINATOR = '\n',   -- Each row ends with a new line
@@ -31,7 +32,7 @@ WITH (
 
 -- Load data into the PortfolioHoldings table
 BULK INSERT PortfolioHoldings
-FROM 'C:\Users\ASUS\Documents\PowerBI_Finance_Project\portfolio_holdings.csv' -- <-- EDIT THIS LINE
+FROM 'C:\Users\ASUS\Documents\PowerBI_Finance_Project\portfolio_holdings.csv' 
 WITH (
     FIELDTERMINATOR = ',',
     ROWTERMINATOR = '\n',
