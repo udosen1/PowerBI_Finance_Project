@@ -112,6 +112,16 @@ You are now ready to begin the analysis:
 5.  Begin building your data model, DAX measures, and dashboard visualizations.
 
 
+# Project: Risk-Return Navigator - A Power BI Portfolio Analysis
+
+## 🚀 Live Interactive Dashboard
+
+The full, interactive Power BI report is publicly available for you to explore. No software is required.
+
+**[➡️ Click Here to View the Live Interactive Dashboard](https://your-public-power-bi-url-here)**
+
+---
+
 ## 📊 Dashboard Showcase
 
 Here is a preview of the three main pages of the report.
@@ -120,3 +130,44 @@ Here is a preview of the three main pages of the report.
 *This page provides a high-level, at-a-glance summary of the portfolio's health, tracking key performance indicators and comparing performance against the S&P 500 benchmark.*
 
 ![Portfolio Overview Screenshot](https://github.com/udosen1/PowerBI_Finance_Project/blob/main/Portfolio_overview.png)
+
+### Page 2: Performance Deep Dive (The "Why")
+*This page allows for a deeper analysis of what drives the portfolio's returns, breaking down profit and loss by individual assets and by sector.*
+
+![Performance Deep Dive Screenshot](https://github.com/udosen1/PowerBI_Finance_Project/blob/main/Performance_Deep_Dive.png)
+
+### Page 3: Risk Analysis (The "How Risky")
+*This page visualizes the crucial tradeoff between risk (volatility) and return, allowing for a sophisticated analysis of the portfolio's risk profile.*
+
+![Risk Analysis Screenshot](https://github.com/udosen1/PowerBI_Finance_Project/blob/main/Risk-Analysis.png)
+
+---
+
+## 🎯 Project Objective
+
+The goal of this project was to develop an end-to-end business intelligence solution to address the challenge of tracking investment portfolio performance. The "Risk-Return Navigator" dashboard transforms raw, historical market data into an interactive tool for making informed financial decisions.
+
+---
+
+## 🛠️ Technology Stack
+
+*   **Data Preparation:** **Python (Pandas)** for cleaning, processing, and combining raw data files.
+*   **Data Storage:** **Microsoft SQL Server** for storing over 100,000 records of market data.
+*   **Business Intelligence:** **Power BI** for data modeling, advanced DAX calculations, and interactive visualization.
+
+---
+
+## ⚙️ Data Pipeline & Architecture
+
+1.  **Data Sourcing:** Historical price data for 21 securities was sourced from a public Kaggle dataset.
+2.  **Data Preparation:** A Python script automated the aggregation of the raw files into a single, clean dataset.
+3.  **Database Loading:** The processed data was efficiently loaded into a SQL Server database using `BULK INSERT`.
+4.  **Data Modeling:** A **Star Schema** was implemented in Power BI, with a central `Fact_MarketData` table connected to `Dim_Date` and `Dim_Security` dimensions. This best-practice model ensures high performance and enables powerful time-intelligence analysis.
+
+---
+
+## 💡 Key Insights Generated
+
+*   **Performance vs. Benchmark:** The portfolio successfully outperformed its S&P 500 benchmark, driven primarily by strong performance in the Technology sector.
+*   **Risk-Return Profile:** The scatter plot identified key assets like TSLA as high-return but high-volatility, while assets like Johnson & Johnson acted as stabilizing, low-risk forces.
+*   **Actionable Strategy:** The dashboard revealed that the portfolio is heavily weighted towards Technology. A potential action would be to rebalance by investing more in under-represented, low-volatility sectors to mitigate risk.
