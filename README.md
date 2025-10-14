@@ -112,15 +112,6 @@ You are now ready to begin the analysis:
 5.  Begin building your data model, DAX measures, and dashboard visualizations.
 ```
 
-# Project: Risk-Return Navigator - A Power BI Portfolio Analysis
-
-## 🚀 Live Interactive Dashboard
-
-The full, interactive Power BI report is publicly available for you to explore. No software is required.
-
-**[➡️ Click Here to View the Live Interactive Dashboard](https://your-public-power-bi-url-here)**
-
----
 
 ## 📊 Dashboard Showcase
 
