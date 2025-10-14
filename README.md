@@ -110,7 +110,6 @@ You are now ready to begin the analysis:
 3.  Connect to your database.
 4.  Load the `MarketData` and `PortfolioHoldings` tables.
 5.  Begin building your data model, DAX measures, and dashboard visualizations.
-```
 
 
 ## 📊 Dashboard Showcase
